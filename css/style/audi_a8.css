@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  html {
+    font-size: px;
+  }
+  
+  li {
+    list-style: none;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  h1 {
+    font-size: 1.9rem;
+  }
+  
+  p {
+    font-size: 1.2rem;
+  }
+  
+  header {
+    width: 100%;
+    height: 5rem;
+    background-color: aliceblue;
+    position: fixed;
+    top: 0;
+    z-index: 333;
+  }
+  
+  .container {
+    width: 96%;
+    max-width: 117rem;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+  }
+  
+  .navbar h1 {
+    text-transform: uppercase;
+    color: #5b5963;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+  
+  .navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar ul a {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    text-transform: uppercase;
+    color: #5b5963;
+    font-weight: 400;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+  }
+  .navbar ul a:hover {
+    color: white;
+    background-color: #fd735a;
+  }
+  
+  .hero {
+    max-width: 114rem;
+    height: 48rem;
+    background: url(/assets/img/Audi_A8/alexey-turenkov-shMHj-QbaP4-unsplash.jpg)
+      no-repeat center / cover;
+    margin: 5rem auto;
+  }
+  
+  main {
+    /* width: 100%;
+    max-width: 80rem;
+    background-color: rgb(46, 239, 239);
+  
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin-top: -15rem; */
+  
+    width: 100%;
+    max-width: 80rem;
+    background-color: rgba(
+      46,
+      239,
+      239,
+      0.5
+    ); /* Adjust the alpha value for transparency */
+    margin: 0 auto;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin-top: -15rem;
+  }
+  main h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+  
+  main .profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3rem 0;
+  }
+  
+  main .profile-container .profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .profile-container .profile .img-container {
+    width: 6rem;
+    height: 6rem;
+    background: url(/assets/ayman-hallak-GjjyVZ69WPI-unsplash.jpg) no-repeat center
+      center / cover;
+    border-radius: 0.5rem;
+  }
+  
+  main .profile-container .profile.text {
+    margin: 0 1rem;
+    color: #5b5963;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  
+  .profile .text h3 {
+    margin-top: 2px;
+    text-transform: uppercase;
+  }
+  
+  main p {
+    color: #5b5963;
+    margin: 1rem auto;
+  }
+  
+  main .content .content-img-container {
+    width: 100%;
+    height: 35rem;
+    background: url(/assets/img/Audi_A8/AdobeStock_647857499_Preview_Editorial_Use_Only.jpeg)
+      no-repeat center center / cover;
+  }
+  
+  blockquote {
+    font-size: 1.4rem;
+    padding: 1rem 2.8rem;
+    line-height: 1.6;
+    font-weight: 300;
+    box-shadow: inset 0.5rem 0 0 #fd735a;
+  }
+  .tags {
+    display: flex;
+    align-items: center;
+  }
+  .tags p {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+  }
+  
+  .content h3 {
+    font-size: 3rem;
+    color: #070707;
+  }
+  
+  .content h4 {
+    font-size: 3rem;
+    color: #ad0d0d;
+    text-align: center; /* Add this line to center the text */
+  }
+  
+  .list dt {
+    color: black;
+    font-size: 30px;
+    border-color: #fd735a;
+    font-weight: bold; /* Add this line to make the text bold */
+  }
+  
+  .list p {
+    font-size: 1.4rem;
+    text-transform: capitalize;
+  }
+  
+  .specific {
+    box-sizing: border-box;
+    color: #fd735a;
+  }
+  
+  table,
+  tr,
+  th,
+  td,
+  caption {
+    border: 1px solid #000000;
+    border-width: 2px;
+    border-collapse: collapse;
+    padding: 0.5rem;
+  }
+  
+  footer {
+    background-color: #222;
+    padding: 1rem 0;
+    margin-top: 0.5rem;
+  }
+  
+  .icons {
+    text-align: center;
+  }
+  
+  .icons .social i {
+    font-size: 3rem;
+    color: gray;
+    padding: 1rem;
+    transition: all 0.4s ease;
+  }
+  
+  .icons .social i:hover {
+    color: white;
+    cursor: pointer;
+  }
+  
+  .icons .copyright p {
+    font-size: 1.2rem;
+    letter-spacing: 1;
+    color: white;
+    margin: 2rem;
+  }
+  
